@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<title>Wren Scott Final Project</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Link to my css file-->
+	<link href="styles.css" rel="stylesheet">
+
+	<!--Linking in fonts from Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+	<!--Linking in ArcGIS JavaScript API CSS-->
+	<link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css">
+
+	<!--Linking in ArcGIS JavaScript API-->
+	<script src="https://js.arcgis.com/4.14/"></script>
+</head>
+
+<body>
+	<!--This is the container for all the content on the webpage-->
+	<div class="app-container">
+		<!--A container for a descriptive title for the web page-->
+		<div class="titlebar">2019 B-Line Urban Delivery Impact Reporting - Organically Grown Company</div>
+
+		<!--This is the contianer for all the links to external sites and documents-->
+		<div class="navbar">
+			<div>
+				<!--Link to B-Line's website-->
+				<a href="https://b-linepdx.com" alt="B-Line Urban Delivery" target="_blank">B-Line Urban Delivery</a>
+			</div>
+
+			<div class="spacer"></div>
+
+			<div>
+				<!--Link to a PDF document containing B-Line's 2016 impact report for context-->
+				<a href="assets/2016B-LINEBenefitREPORT.pdf" alt="2016 Impact report" target="_blank">2016 Impact Report</a>
+			</div>
+
+			<div class="spacer"></div>
+
+			<div>
+				<!--Link to the B-Corp website-->
+				<a href="https://bcorporation.net" alt="Certified B Corperation" target="_blank">Certifed B Corperation</a>
+			</div>
+
+			<div class="spacer"></div>
+
+			<div>
+				<!--Link to OGC's website-->
+				<a href="https://www.organicgrown.com" alt="Organicall Grown Company" target="_blank">Organicall Grown Company</a>
+			</div>
+		</div>
+
+		<div class="map-container">
+
+			<!-- This is the container where the map goes! See code line 147 in "script.js"-->
+			<div id="OGCImpactMap"></div>
+
+		</div>
+
+		<!--Sidebar was meant to include data charts about delivery data. In the interest of time, I changed the design to just include a description of the project and B-Line logo. Popups on map that contain 2019 stats for each respective delivery account compensate for the absence of data charts.-->
+		<div id="sidebar"><img src="assets/BLineLogo.png"><br>B-Line Urban Delivery is a last-mile logistics company that uses electric pedal-assisted cargo tricycles to distribute food products, both raw and value-added to Portland’s urban core. As a certified B-Corp, we create impact reports that we share with our clients and third-party certification groups to maintain our B-Corp status. One of our major clients who requests impact reports is Organically Grown Company (OGC), an organic produce distributor. This map focuses on deliveries made on behalf of this client during 2019. Common metrics we use to convey our environmental impact are truck trips avoided and CO2 emissions reduced through using our unique services.</div>
+
+	</div>
+
+	<!--Link to my JavaScript file-->
+	<script src="script.js"></script>
+</body>
