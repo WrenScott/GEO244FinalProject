@@ -98,14 +98,23 @@ IsSystemMaintained : True
 
 #### Fields:
 • OBJECTID (type: esriFieldTypeOID, alias: OBJECTID, SQL Type: sqlTypeInteger, length: 0, nullable: false, editable: false)
+
 • DeliveryAccounts (type: esriFieldTypeString, alias: DeliveryAccounts, SQL Type: sqlTypeNVarchar, length: 256, nullable: true, editable: true)
+
 • Address (type: esriFieldTypeString, alias: Address, SQL Type: sqlTypeNVarchar, length: 256, nullable: true, editable: true)
+
 • Latitude (type: esriFieldTypeSingle, alias: Latitude, SQL Type: sqlTypeReal, nullable: true, editable: true)
+
 • Longitude (type: esriFieldTypeSingle, alias: Longitude, SQL Type: sqlTypeReal, nullable: true, editable: true)
+
 • Frequency (type: esriFieldTypeInteger, alias: Frequency, SQL Type: sqlTypeInteger, nullable: true, editable: true)
+
 • TruckMilesAvoided (type: esriFieldTypeSingle, alias: TruckMilesAvoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
+
 • GalGasAvoided (type: esriFieldTypeSingle, alias: GalGasAvoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
+
 • LbsCO2Avoided (type: esriFieldTypeSingle, alias: LbsCO2Avoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
+
 • TotalLbsDelivered (type: esriFieldTypeSingle, alias: TotalLbsDelivered, SQL Type: sqlTypeReal, nullable: true, editable: true)
 
 #### Templates:
@@ -132,11 +141,18 @@ Query   Query Top Features   Generate Renderer   Validate SQL
 ## Explanation of Mapping Tools Used: 
 The main tools used in my project are as follows: 
 
-•	ArcGIS Pro to represent data spatially
-•	ArcGIS Online to host a feature layer containing data 
-•	ArcGIS JavaScript API to render interactive map on the web app
-o	Used ESRI dark-gray basemap with references 
-o	Followed along with the Thematic Multivariate visualization for a 2D map view example to represent the delivery accounts on a color ramp associated with the total pounds of produce delivered per account and a graduated symbol associated with the total pounds of CO2 avoided per account.
-o	Popup Template property of the FeatureLayer module to create popups based on delivery accounts 
-o	Used the Extent module to set the extent of map. Errors were encountered when a center property was set to the mapVew object, so a newExtent object was created. 
-o	Used the Legend module to create a static legend on the map. Would have liked to make this collapsible had I more time. 
+• ArcGIS Pro to represent data spatially
+
+• ArcGIS Online to host a feature layer containing data 
+
+• ArcGIS JavaScript API to render interactive map on the web app
+
+o Used ESRI dark-gray basemap with references 
+
+o Followed along with the Thematic Multivariate visualization for a 2D map view example to represent the delivery accounts on a color ramp associated with the total pounds of produce delivered per account and a graduated symbol associated with the total pounds of CO2 avoided per account.
+
+o Popup Template property of the FeatureLayer module to create popups based on delivery accounts  
+
+o Used the Extent module to set the extent of map. Errors were encountered when a center property was set to the mapVew object, so a newExtent object was created. 
+
+o Used the Legend module to create a static legend on the map. Would have liked to make this collapsible had I more time. 
