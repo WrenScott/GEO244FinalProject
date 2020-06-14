@@ -97,16 +97,16 @@ Name : OBJECTID
 IsSystemMaintained : True
 
 #### Fields:
-•	OBJECTID (type: esriFieldTypeOID, alias: OBJECTID, SQL Type: sqlTypeInteger, length: 0, nullable: false, editable: false)
-•	DeliveryAccounts (type: esriFieldTypeString, alias: DeliveryAccounts, SQL Type: sqlTypeNVarchar, length: 256, nullable: true, editable: true)
-•	Address (type: esriFieldTypeString, alias: Address, SQL Type: sqlTypeNVarchar, length: 256, nullable: true, editable: true)
-•	Latitude (type: esriFieldTypeSingle, alias: Latitude, SQL Type: sqlTypeReal, nullable: true, editable: true)
-•	Longitude (type: esriFieldTypeSingle, alias: Longitude, SQL Type: sqlTypeReal, nullable: true, editable: true)
-•	Frequency (type: esriFieldTypeInteger, alias: Frequency, SQL Type: sqlTypeInteger, nullable: true, editable: true)
-•	TruckMilesAvoided (type: esriFieldTypeSingle, alias: TruckMilesAvoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
-•	GalGasAvoided (type: esriFieldTypeSingle, alias: GalGasAvoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
-•	LbsCO2Avoided (type: esriFieldTypeSingle, alias: LbsCO2Avoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
-•	TotalLbsDelivered (type: esriFieldTypeSingle, alias: TotalLbsDelivered, SQL Type: sqlTypeReal, nullable: true, editable: true)
+• OBJECTID (type: esriFieldTypeOID, alias: OBJECTID, SQL Type: sqlTypeInteger, length: 0, nullable: false, editable: false)
+• DeliveryAccounts (type: esriFieldTypeString, alias: DeliveryAccounts, SQL Type: sqlTypeNVarchar, length: 256, nullable: true, editable: true)
+• Address (type: esriFieldTypeString, alias: Address, SQL Type: sqlTypeNVarchar, length: 256, nullable: true, editable: true)
+• Latitude (type: esriFieldTypeSingle, alias: Latitude, SQL Type: sqlTypeReal, nullable: true, editable: true)
+• Longitude (type: esriFieldTypeSingle, alias: Longitude, SQL Type: sqlTypeReal, nullable: true, editable: true)
+• Frequency (type: esriFieldTypeInteger, alias: Frequency, SQL Type: sqlTypeInteger, nullable: true, editable: true)
+• TruckMilesAvoided (type: esriFieldTypeSingle, alias: TruckMilesAvoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
+• GalGasAvoided (type: esriFieldTypeSingle, alias: GalGasAvoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
+• LbsCO2Avoided (type: esriFieldTypeSingle, alias: LbsCO2Avoided, SQL Type: sqlTypeReal, nullable: true, editable: true)
+• TotalLbsDelivered (type: esriFieldTypeSingle, alias: TotalLbsDelivered, SQL Type: sqlTypeReal, nullable: true, editable: true)
 
 #### Templates:
 
