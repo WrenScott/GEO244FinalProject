@@ -2,15 +2,17 @@
 Here you can find the files that make up my Interactive Map Design Final Project (GEO244). Project completed 3/16/20.
 
 ## Purpose
-###Project Title: 
+### Project Title: 
 2019 B-Line Urban Delivery Impact Reporting – Organically Grown Company
 
-###Audience: B-Line Urban Delivery staff, B-Line client Organically Grown Company (OGC)
+### Audience: 
+B-Line Urban Delivery staff, B-Line client Organically Grown Company (OGC)
 	
-###Intended Purpose: To spatially represent delivery and impact statistics for each OGC delivery account serviced during 2019. 
+### Intended Purpose: 
+To spatially represent delivery and impact statistics for each OGC delivery account serviced during 2019. 
 
 
-##User Instructions: 
+## User Instructions: 
 To use this web app, download files from my final project GitHub repository found at: https://github.com/WrenScott/GEO244FinalProject
 
 Open or copy & paste the files in a development environment, such as CodePen or Brackets. Note, the BLineLogo.png and 2016B-LINEBenefitREPORT.pdf will need to be stored in an accessible location to be linked into code for them to be rendered on the page. 
@@ -21,7 +23,7 @@ Zoom and pan around the map to check out the data represented on the map and see
 
 Click on each point marker that represents each delivery account to view a popup containing summary 2019 delivery statistics. From within the popup, you can zoom to the selected feature and you can dock the popup to the upper right corner of the map. 
 
-##Data & Sources: 
+## Data & Sources: 
 The primary dataset that map was built off of is an internal B-Line Google Sheet “Rider Daily Data.” 2019 data was captured upon each instance of delivery by B-Line staff and entered into the sheet using a Google Form. I downloaded the sheet and worked with it in Microsoft Excel. 
 The data was queried for delivery information specific to OGC and 2019. A sheet containing delivery addresses and coordinates was joined so the accounts could be mapped. 
 It was then, summarized by delivery account for frequency of delivery, pounds of produce delivered. 
@@ -31,8 +33,8 @@ Once the impact data was calculated in Excel, a simple map was created in ArcGIS
 B-Line logo image and 2016 Impact Reporting were sourced from internal B-Line Google Drive. 
 
 
-##Metadata: 
-####Name: 2019 OGC Delivery Accounts
+## Metadata: 
+#### Name: 2019 OGC Delivery Accounts
 
 ####Display Field:
 
